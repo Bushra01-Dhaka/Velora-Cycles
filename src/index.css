@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+@plugin "daisyui" {
+   themes: dark --default, light ;
+ }
+
+  @plugin "daisyui/theme" {
+   name: "dark";
+   default: true;
+  --color-primary: #F97316;
+  --color-secondary: #EA580C;
+  --color-accent: #FDBA74; 
+  /* for text */
+  --color-success: #1C1917; 
+  /* for background */
+  --color-info: #FFF7ED;  
+}
+
+.font-outfit{
+  font-family:  "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.font-outfits{
+  font-family:   "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
