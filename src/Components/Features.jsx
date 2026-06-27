@@ -11,7 +11,7 @@ const Features = () => {
                       <p className="py-4 lg:text-lg lg:max-w-[70%] mx-auto">Engineered with precision and built for durability, our bicycles combine performance, comfort, and innovation for every journey.</p>
               </div>
 
-              <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 p-4 lg:p-10">
+              <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 p-4 lg:p-10">
                     <div className="relative  group overflow-hidden rounded-xl hover:shadow-md shadow-primary ">
                         <div className="">
                             <img src="https://images.unsplash.com/photo-1722255988570-4ef0c7ecd6e2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTh8fGJpY3ljbGUlMjBsaWdodHdlaWdodCUyMGZyYW1lfGVufDB8fDB8fHww" className="h-[400px] w-full lg:w-[320px]  object-cover transition-transform duration-500 group-hover:scale-110 cursor-pointer" alt="" />
